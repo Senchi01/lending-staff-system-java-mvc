@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite package="org.checkstyle" time="0" tests="12" errors="1" name="checkstyle">
+<testcase time="0" name="controller/Controller.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="controller/MainMenu.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="controller/Run.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/Contract.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/ContractController.java" classname="CheckStyle Issues">
+<failure message="issues" ><![CDATA[line: 46 column: column:60 
+')' is preceded with whitespace.
+----------------
+]]></failure>
+</testcase><testcase time="0" name="model/domain/Item.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/LendingSystem.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/Member.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/domain/Time.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/EnglishView.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/SwedishView.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/ViewInterface.java" classname="CheckStyle Issues">
+</testcase></testsuite>

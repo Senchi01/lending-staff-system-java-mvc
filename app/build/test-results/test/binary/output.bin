@@ -1,0 +1,39 @@
+€0 CheckStyle Issues in C:/Users/ghiya/OneDrive - student.lnu.se/Desktop/1dv607/a2/app/src/main/java/controller/Controller.java
+~0 CheckStyle Issues in C:/Users/ghiya/OneDrive - student.lnu.se/Desktop/1dv607/a2/app/src/main/java/controller/MainMenu.java
+y0 CheckStyle Issues in C:/Users/ghiya/OneDrive - student.lnu.se/Desktop/1dv607/a2/app/src/main/java/controller/Run.java
+€0 CheckStyle Issues in C:/Users/ghiya/OneDrive - student.lnu.se/Desktop/1dv607/a2/app/src/main/java/model/domain/Contract.java
+Š1 CheckStyle Issues in C:/Users/ghiya/OneDrive - student.lnu.se/Desktop/1dv607/a2/app/src/main/java/model/domain/ContractController.java
+"text:line: 46 column: column:60 
+"')' is preceded with whitespace.
+
+|0 CheckStyle Issues in C:/Users/ghiya/OneDrive - student.lnu.se/Desktop/1dv607/a2/app/src/main/java/model/domain/Item.java
+…0 CheckStyle Issues in C:/Users/ghiya/OneDrive - student.lnu.se/Desktop/1dv607/a2/app/src/main/java/model/domain/LendingSystem.java
+~0 CheckStyle Issues in C:/Users/ghiya/OneDrive - student.lnu.se/Desktop/1dv607/a2/app/src/main/java/model/domain/Member.java
+|0 CheckStyle Issues in C:/Users/ghiya/OneDrive - student.lnu.se/Desktop/1dv607/a2/app/src/main/java/model/domain/Time.java
+{0 CheckStyle Issues in C:/Users/ghiya/OneDrive - student.lnu.se/Desktop/1dv607/a2/app/src/main/java/view/EnglishView.java
+{0 CheckStyle Issues in C:/Users/ghiya/OneDrive - student.lnu.se/Desktop/1dv607/a2/app/src/main/java/view/SwedishView.java
+}0 CheckStyle Issues in C:/Users/ghiya/OneDrive - student.lnu.se/Desktop/1dv607/a2/app/src/main/java/view/ViewInterface.java
+;2 FindBugs Issues in model/domain/ContractController.java
+text:lines: 8-65 
+FUseless condition: it's known that affordable == true at this point 
+Condition has no effect 
+`This condition always produces the same result as the value of the involved variable that was 
+W  narrowed before. Probably something else was meant or the condition can be removed.
+
+text:lines: 8-65 
+IUseless condition: it's known that availableTime == true at this point 
+Condition has no effect 
+`This condition always produces the same result as the value of the involved variable that was 
+W  narrowed before. Probably something else was meant or the condition can be removed.
+
+,0 FindBugs Issues in view/SwedishView.java
+.0 FindBugs Issues in view/ViewInterface.java
+-0 FindBugs Issues in model/domain/Item.java
+*0 FindBugs Issues in controller/Run.java
+10 FindBugs Issues in model/domain/Contract.java
+/0 FindBugs Issues in model/domain/Member.java
+/0 FindBugs Issues in controller/MainMenu.java
+-0 FindBugs Issues in model/domain/Time.java
+,0 FindBugs Issues in view/EnglishView.java
+10 FindBugs Issues in controller/Controller.java
+60 FindBugs Issues in model/domain/LendingSystem.java

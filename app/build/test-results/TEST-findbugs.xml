@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite package="org.spotbugs" time="0" tests="12" errors="2" name="findbugs">
+<testcase time="0" name="model/domain/ContractController.java" classname="FindBugs Issues">
+<failure message="issues" ><![CDATA[lines: 8-65 
+Useless condition: it's known that affordable == true at this point 
+Condition has no effect 
+This condition always produces the same result as the value of the involved 
+  variable that was narrowed before. Probably something else was meant or 
+  the condition can be removed.
+----------------
+lines: 8-65 
+Useless condition: it's known that availableTime == true at this point 
+Condition has no effect 
+This condition always produces the same result as the value of the involved 
+  variable that was narrowed before. Probably something else was meant or 
+  the condition can be removed.
+----------------
+]]></failure>
+</testcase><testcase time="0" name="view/SwedishView.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="view/ViewInterface.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/Item.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="controller/Run.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/Contract.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/Member.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="controller/MainMenu.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/Time.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="view/EnglishView.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="controller/Controller.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/domain/LendingSystem.java" classname="FindBugs Issues">
+</testcase></testsuite>

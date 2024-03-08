@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.1" sequence="0" timestamp="1680534060687" analysisTimestamp="1680534060721" release="unspecified">
+  <Project projectName="app (spotbugsMain)">
+    <Jar>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\build\classes\java\main\controller\Controller.class</Jar>
+    <Jar>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\build\classes\java\main\controller\MainMenu$1.class</Jar>
+    <Jar>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\build\classes\java\main\controller\MainMenu.class</Jar>
+    <Jar>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\build\classes\java\main\controller\Run.class</Jar>
+    <Jar>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\build\classes\java\main\model\domain\Contract.class</Jar>
+    <Jar>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\build\classes\java\main\model\domain\ContractController$Status.class</Jar>
+    <Jar>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\build\classes\java\main\model\domain\ContractController.class</Jar>
+    <Jar>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\build\classes\java\main\model\domain\Item.class</Jar>
+    <Jar>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\build\classes\java\main\model\domain\LendingSystem.class</Jar>
+    <Jar>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\build\classes\java\main\model\domain\Member.class</Jar>
+    <Jar>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\build\classes\java\main\model\domain\Time.class</Jar>
+    <Jar>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\build\classes\java\main\view\EnglishView.class</Jar>
+    <Jar>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\build\classes\java\main\view\SwedishView.class</Jar>
+    <Jar>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\build\classes\java\main\view\ViewInterface$ItemMenuEvent.class</Jar>
+    <Jar>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\build\classes\java\main\view\ViewInterface$MemberMenuEvent.class</Jar>
+    <Jar>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\build\classes\java\main\view\ViewInterface$StartMenu.class</Jar>
+    <Jar>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\build\classes\java\main\view\ViewInterface.class</Jar>
+    <AuxClasspathEntry>C:\Users\ghiya\.gradle\caches\modules-2\files-2.1\com.github.spotbugs\spotbugs-annotations\4.7.2\3546c0a24a083e7fdfdf5986bef76b19c477a264\spotbugs-annotations-4.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ghiya\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\30.1.1-jre\87e0fd1df874ea3cbe577702fe6f17068b790fd8\guava-30.1.1-jre.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ghiya\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ghiya\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ghiya\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ghiya\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.8.0\6b83e4a33220272c3a08991498ba9dc09519f190\checker-qual-3.8.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ghiya\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.5.1\562d366678b89ce5d6b6b82c1a073880341e3fba\error_prone_annotations-2.5.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ghiya\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\src\main\resources</SrcDir>
+    <SrcDir>C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\src\main\java</SrcDir>
+  </Project>
+  <BugInstance type="UC_USELESS_CONDITION" priority="1" rank="14" abbrev="UC" category="STYLE" instanceHash="6504af6102019ce3335d79fb3c3573ed" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Condition has no effect</ShortMessage>
+    <LongMessage>Useless condition: it&apos;s known that affordable == true at this point</LongMessage>
+    <Class classname="model.domain.ContractController" primary="true">
+      <SourceLine classname="model.domain.ContractController" start="8" end="65" sourcefile="ContractController.java" sourcepath="model/domain/ContractController.java" relSourcepath="java\model\domain\ContractController.java">
+        <Message>At ContractController.java:[lines 8-65]</Message>
+      </SourceLine>
+      <Message>In class model.domain.ContractController</Message>
+    </Class>
+    <Method classname="model.domain.ContractController" name="lendingEligiblity" signature="(IILmodel/domain/Member;Lmodel/domain/Item;Ljava/util/ArrayList;)Lmodel/domain/ContractController$Status;" isStatic="false" primary="true">
+      <SourceLine classname="model.domain.ContractController" start="55" end="65" startBytecode="0" endBytecode="245" sourcefile="ContractController.java" sourcepath="model/domain/ContractController.java" relSourcepath="java\model\domain\ContractController.java"/>
+      <Message>In method model.domain.ContractController.lendingEligiblity(int, int, Member, Item, ArrayList)</Message>
+    </Method>
+    <String value="affordable == true">
+      <Message>Value affordable == true</Message>
+    </String>
+    <SourceLine classname="model.domain.ContractController" start="62" end="62" startBytecode="52" endBytecode="52" sourcefile="ContractController.java" sourcepath="model/domain/ContractController.java" relSourcepath="java\model\domain\ContractController.java" role="SOURCE_UNREACHABLE_CODE">
+      <Message>Unreachable code at ContractController.java:[line 62]</Message>
+    </SourceLine>
+    <SourceLine classname="model.domain.ContractController" primary="true" start="62" end="62" startBytecode="49" endBytecode="49" sourcefile="ContractController.java" sourcepath="model/domain/ContractController.java" relSourcepath="java\model\domain\ContractController.java">
+      <Message>At ContractController.java:[line 62]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_CONDITION" priority="1" rank="14" abbrev="UC" category="STYLE" instanceHash="249640bdd34895df7ca1ab466f1ddbf8" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Condition has no effect</ShortMessage>
+    <LongMessage>Useless condition: it&apos;s known that availableTime == true at this point</LongMessage>
+    <Class classname="model.domain.ContractController" primary="true">
+      <SourceLine classname="model.domain.ContractController" start="8" end="65" sourcefile="ContractController.java" sourcepath="model/domain/ContractController.java" relSourcepath="java\model\domain\ContractController.java">
+        <Message>At ContractController.java:[lines 8-65]</Message>
+      </SourceLine>
+      <Message>In class model.domain.ContractController</Message>
+    </Class>
+    <Method classname="model.domain.ContractController" name="lendingEligiblity" signature="(IILmodel/domain/Member;Lmodel/domain/Item;Ljava/util/ArrayList;)Lmodel/domain/ContractController$Status;" isStatic="false" primary="true">
+      <SourceLine classname="model.domain.ContractController" start="55" end="65" startBytecode="0" endBytecode="245" sourcefile="ContractController.java" sourcepath="model/domain/ContractController.java" relSourcepath="java\model\domain\ContractController.java"/>
+      <Message>In method model.domain.ContractController.lendingEligiblity(int, int, Member, Item, ArrayList)</Message>
+    </Method>
+    <String value="availableTime == true">
+      <Message>Value availableTime == true</Message>
+    </String>
+    <SourceLine classname="model.domain.ContractController" start="63" end="63" startBytecode="57" endBytecode="57" sourcefile="ContractController.java" sourcepath="model/domain/ContractController.java" relSourcepath="java\model\domain\ContractController.java" role="SOURCE_UNREACHABLE_CODE">
+      <Message>Unreachable code at ContractController.java:[line 63]</Message>
+    </SourceLine>
+    <SourceLine classname="model.domain.ContractController" primary="true" start="62" end="62" startBytecode="54" endBytecode="54" sourcefile="ContractController.java" sourcepath="model/domain/ContractController.java" relSourcepath="java\model\domain\ContractController.java">
+      <Message>At ContractController.java:[line 62]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="STYLE">
+    <Description>Dodgy code</Description>
+  </BugCategory>
+  <BugPattern type="UC_USELESS_CONDITION" abbrev="UC" category="STYLE">
+    <ShortDescription>Condition has no effect</ShortDescription>
+    <Details><![CDATA[
+
+<p>This condition always produces the same result as the value of the involved variable that was narrowed before.
+Probably something else was meant or the condition can be removed.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="UC">
+    <Description>Useless code</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 3 Apr 2023 17:01:00 +0200" total_classes="17" referenced_classes="62" total_bugs="2" total_size="1084" num_packages="3" java_version="18.0.1.1" vm_version="18.0.1.1+2-6" cpu_seconds="13.12" clock_seconds="2.95" peak_mbytes="155.38" alloc_mbytes="1900.00" gc_seconds="0.08" priority_1="2">
+    <FileStats path="controller/Controller.java" bugCount="0" size="62"/>
+    <FileStats path="controller/MainMenu.java" bugCount="0" size="103"/>
+    <FileStats path="controller/Run.java" bugCount="0" size="11"/>
+    <FileStats path="model/domain/Contract.java" bugCount="0" size="39"/>
+    <FileStats path="model/domain/ContractController.java" bugCount="2" size="41" bugHash="dcf1af816253111816aae2c9284068eb"/>
+    <FileStats path="model/domain/Item.java" bugCount="0" size="90"/>
+    <FileStats path="model/domain/LendingSystem.java" bugCount="0" size="124"/>
+    <FileStats path="model/domain/Member.java" bugCount="0" size="73"/>
+    <FileStats path="model/domain/Time.java" bugCount="0" size="9"/>
+    <FileStats path="view/EnglishView.java" bugCount="0" size="219"/>
+    <FileStats path="view/SwedishView.java" bugCount="0" size="220"/>
+    <FileStats path="view/ViewInterface.java" bugCount="0" size="93"/>
+    <PackageStats package="controller" total_bugs="0" total_types="4" total_size="176">
+      <ClassStats class="controller.Controller" sourceFile="Controller.java" interface="false" size="62" bugs="0"/>
+      <ClassStats class="controller.MainMenu" sourceFile="MainMenu.java" interface="false" size="93" bugs="0"/>
+      <ClassStats class="controller.MainMenu$1" sourceFile="MainMenu.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="controller.Run" sourceFile="Run.java" interface="false" size="11" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="model.domain" total_bugs="2" total_types="7" total_size="376" priority_1="2">
+      <ClassStats class="model.domain.Contract" sourceFile="Contract.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="model.domain.ContractController" sourceFile="ContractController.java" interface="false" size="25" bugs="2" priority_1="2"/>
+      <ClassStats class="model.domain.ContractController$Status" sourceFile="ContractController.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="model.domain.Item" sourceFile="Item.java" interface="false" size="90" bugs="0"/>
+      <ClassStats class="model.domain.LendingSystem" sourceFile="LendingSystem.java" interface="false" size="124" bugs="0"/>
+      <ClassStats class="model.domain.Member" sourceFile="Member.java" interface="false" size="73" bugs="0"/>
+      <ClassStats class="model.domain.Time" sourceFile="Time.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="view" total_bugs="0" total_types="6" total_size="532">
+      <ClassStats class="view.EnglishView" sourceFile="EnglishView.java" interface="false" size="219" bugs="0"/>
+      <ClassStats class="view.SwedishView" sourceFile="SwedishView.java" interface="false" size="220" bugs="0"/>
+      <ClassStats class="view.ViewInterface" sourceFile="ViewInterface.java" interface="true" size="29" bugs="0"/>
+      <ClassStats class="view.ViewInterface$ItemMenuEvent" sourceFile="ViewInterface.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="view.ViewInterface$MemberMenuEvent" sourceFile="ViewInterface.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="view.ViewInterface$StartMenu" sourceFile="ViewInterface.java" interface="false" size="22" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="398" invocations="590" avgMicrosecondsPerInvocation="674" maxMicrosecondsPerInvocation="27107" standardDeviationMicrosecondsPerInvocation="1601"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="119" invocations="62" avgMicrosecondsPerInvocation="1922" maxMicrosecondsPerInvocation="18879" standardDeviationMicrosecondsPerInvocation="3538"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="94" invocations="166" avgMicrosecondsPerInvocation="571" maxMicrosecondsPerInvocation="10077" standardDeviationMicrosecondsPerInvocation="935"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="88" invocations="595" avgMicrosecondsPerInvocation="148" maxMicrosecondsPerInvocation="2943" standardDeviationMicrosecondsPerInvocation="190"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="87" invocations="165" avgMicrosecondsPerInvocation="532" maxMicrosecondsPerInvocation="4798" standardDeviationMicrosecondsPerInvocation="585"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="83" invocations="62" avgMicrosecondsPerInvocation="1346" maxMicrosecondsPerInvocation="11568" standardDeviationMicrosecondsPerInvocation="2225"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="79" invocations="359" avgMicrosecondsPerInvocation="220" maxMicrosecondsPerInvocation="4613" standardDeviationMicrosecondsPerInvocation="402"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="76" invocations="165" avgMicrosecondsPerInvocation="462" maxMicrosecondsPerInvocation="7753" standardDeviationMicrosecondsPerInvocation="744"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="74" invocations="165" avgMicrosecondsPerInvocation="454" maxMicrosecondsPerInvocation="3639" standardDeviationMicrosecondsPerInvocation="527"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="69" invocations="165" avgMicrosecondsPerInvocation="418" maxMicrosecondsPerInvocation="2841" standardDeviationMicrosecondsPerInvocation="444"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="64" invocations="165" avgMicrosecondsPerInvocation="387" maxMicrosecondsPerInvocation="9001" standardDeviationMicrosecondsPerInvocation="736"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="62" invocations="193" avgMicrosecondsPerInvocation="325" maxMicrosecondsPerInvocation="36125" standardDeviationMicrosecondsPerInvocation="2603"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="57" invocations="132" avgMicrosecondsPerInvocation="432" maxMicrosecondsPerInvocation="17816" standardDeviationMicrosecondsPerInvocation="1551"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="48" invocations="548" avgMicrosecondsPerInvocation="89" maxMicrosecondsPerInvocation="1090" standardDeviationMicrosecondsPerInvocation="134"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="48" invocations="101" avgMicrosecondsPerInvocation="480" maxMicrosecondsPerInvocation="20838" standardDeviationMicrosecondsPerInvocation="2099"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="44" invocations="62" avgMicrosecondsPerInvocation="715" maxMicrosecondsPerInvocation="7501" standardDeviationMicrosecondsPerInvocation="1332"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="43" invocations="62" avgMicrosecondsPerInvocation="694" maxMicrosecondsPerInvocation="30615" standardDeviationMicrosecondsPerInvocation="3851"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="36" invocations="62" avgMicrosecondsPerInvocation="591" maxMicrosecondsPerInvocation="4634" standardDeviationMicrosecondsPerInvocation="1013"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="29" invocations="145" avgMicrosecondsPerInvocation="201" maxMicrosecondsPerInvocation="933" standardDeviationMicrosecondsPerInvocation="165"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="28" invocations="62" avgMicrosecondsPerInvocation="457" maxMicrosecondsPerInvocation="11716" standardDeviationMicrosecondsPerInvocation="1507"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine" totalMilliseconds="28" invocations="564" avgMicrosecondsPerInvocation="49" maxMicrosecondsPerInvocation="18215" standardDeviationMicrosecondsPerInvocation="778"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="26" invocations="62" avgMicrosecondsPerInvocation="431" maxMicrosecondsPerInvocation="3919" standardDeviationMicrosecondsPerInvocation="751"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="25" invocations="17" avgMicrosecondsPerInvocation="1500" maxMicrosecondsPerInvocation="11841" standardDeviationMicrosecondsPerInvocation="3184"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="22" invocations="165" avgMicrosecondsPerInvocation="137" maxMicrosecondsPerInvocation="2242" standardDeviationMicrosecondsPerInvocation="214"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="22" invocations="62" avgMicrosecondsPerInvocation="362" maxMicrosecondsPerInvocation="3729" standardDeviationMicrosecondsPerInvocation="597"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="22" invocations="62" avgMicrosecondsPerInvocation="358" maxMicrosecondsPerInvocation="6005" standardDeviationMicrosecondsPerInvocation="845"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CheckRelaxingNullnessAnnotation" totalMilliseconds="19" invocations="17" avgMicrosecondsPerInvocation="1169" maxMicrosecondsPerInvocation="10357" standardDeviationMicrosecondsPerInvocation="2346"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.obl.ObligationAnalysis" totalMilliseconds="16" invocations="58" avgMicrosecondsPerInvocation="287" maxMicrosecondsPerInvocation="1674" standardDeviationMicrosecondsPerInvocation="288"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.38">
+<file name="C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\src\main\java\controller\Controller.java">
+</file>
+<file name="C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\src\main\java\controller\MainMenu.java">
+</file>
+<file name="C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\src\main\java\controller\Run.java">
+</file>
+<file name="C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\src\main\java\model\domain\Contract.java">
+</file>
+<file name="C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\src\main\java\model\domain\ContractController.java">
+<error line="46" column="60" severity="warning" message="&apos;)&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+</file>
+<file name="C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\src\main\java\model\domain\Item.java">
+</file>
+<file name="C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\src\main\java\model\domain\LendingSystem.java">
+</file>
+<file name="C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\src\main\java\model\domain\Member.java">
+</file>
+<file name="C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\src\main\java\model\domain\Time.java">
+</file>
+<file name="C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\src\main\java\view\EnglishView.java">
+</file>
+<file name="C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\src\main\java\view\SwedishView.java">
+</file>
+<file name="C:\Users\ghiya\OneDrive - student.lnu.se\Desktop\1dv607\a2\app\src\main\java\view\ViewInterface.java">
+</file>
+</checkstyle>
